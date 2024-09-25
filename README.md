@@ -1,37 +1,54 @@
 # Flutter eCommerce App
 
-A complete Flutter-based eCommerce application with Firebase for user authentication, cart management, and product favorites. This app demonstrates modern mobile app UI design and Firebase integration for real-time data handling.
+A complete Flutter-based eCommerce mobile application with Firebase for user authentication, shopping cart management, and product favorites. This app demonstrates modern UI design using Flutter and real-time data handling through Firebase.
 
 ## Features
 
-- **User Registration**: Create and authenticate users using Firebase Authentication.
-- **HomeDetails**: Details product with real-time updates.
-- **Shopping Cart**: Add and manage products in the shopping cart with real-time updates.
-- **Favorites**: Add products to the favorites list and easily manage them.
-- **Profile**: Make UserFriendly profile.
-- **Responsive UI**: Adaptive design using Flutter's ScreenUtil package to ensure a seamless experience on different devices.
-- **Firebase Firestore Integration**: Securely store and retrieve user data, cart items, and favorites.
+- **User Authentication:**
+  - Register and log in using Firebase Authentication.
+  - Secure password management.
 
+- **Product Management:**
+  - Browse and search products from the Firebase Firestore database.
+  - View detailed product information, including images, price, and description.
 
-# Screenshots
+- **Favorites Management:**
+  - Add products to a favorites list.
+  - Easily view, manage, and remove favorite items.
 
-*![Screenshot 2024-09-22 at 11 35 17 PM](https://github.com/user-attachments/assets/58724a26-4e09-4065-8531-9badcb729a47)*
+- **Shopping Cart:**
+  - Add products to the shopping cart.
+  - Update and remove products from the cart in real time.
+  - Checkout process simulation.
 
+- **User Profile:**
+  - Manage user profile with Firebase, including personal information like name, email, and age.
 
-* ![Screenshot 2024-09-22 at 11 37 17 PM](https://github.com/user-attachments/assets/0036c167-edde-4c94-be3a-f6909f5d0077)*
+- **Responsive Design:**
+  - Adaptive UI using the Flutter `ScreenUtil` package to ensure compatibility across various screen sizes.
 
+- **Firebase Firestore Integration:**
+  - Securely store and retrieve user data, cart items, and favorite products.
+  - Real-time updates and syncing with Firebase Firestore.
 
-*![Screenshot 2024-09-22 at 11 38 34 PM](https://github.com/user-attachments/assets/aa132014-d9c1-4f4e-bc6d-7380f47399b9)*
+## Technologies Used
 
-* ![Screenshot 2024-09-22 at 11 39 17 PM](https://github.com/user-attachments/assets/7a0ad741-eaee-4060-b1ea-6a91842cbf08)*
-* 
-* ![Screenshot 2024-09-22 at 11 40 34 PM](https://github.com/user-attachments/assets/14f991b4-6d04-44dd-80ff-21af14efd3e5)*
-* 
-* ![Screenshot 2024-09-22 at 11 41 11 PM](https://github.com/user-attachments/assets/057d26d6-fb1a-41a5-8ac9-1e3aaa469782)*
-  
-*![Screenshot 2024-09-22 at 11 41 34 PM](https://github.com/user-attachments/assets/cfc8b80e-14ea-474b-8e87-2d46c07a2404)
+- **Frontend:**
+  - Flutter
+  - Dart
 
+- **Backend:**
+  - Firebase (Authentication and Firestore)
 
+## Screenshots
+
+![Screenshot 1](https://github.com/user-attachments/assets/58724a26-4e09-4065-8531-9badcb729a47)
+![Screenshot 2](https://github.com/user-attachments/assets/0036c167-edde-4c94-be3a-f6909f5d0077)
+![Screenshot 3](https://github.com/user-attachments/assets/aa132014-d9c1-4f4e-bc6d-7380f47399b9)
+![Screenshot 4](https://github.com/user-attachments/assets/7a0ad741-eaee-4060-b1ea-6a91842cbf08)
+![Screenshot 5](https://github.com/user-attachments/assets/14f991b4-6d04-44dd-80ff-21af14efd3e5)
+![Screenshot 6](https://github.com/user-attachments/assets/057d26d6-fb1a-41a5-8ac9-1e3aaa469782)
+![Screenshot 7](https://github.com/user-attachments/assets/cfc8b80e-14ea-474b-8e87-2d46c07a2404)
 
 ## Getting Started
 
@@ -50,3 +67,4 @@ Make sure you have Flutter and Firebase CLI installed on your machine.
 
    ```bash
    git clone https://github.com/Didar1313/flutter-ecommerce-app.git
+   cd flutter-ecommerce-app
